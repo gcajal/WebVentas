@@ -12,7 +12,7 @@ namespace WebVentas.Areas.Users.Models
         public string Name { get; set; }
         [Required(ErrorMessage = "El campo apellido es obligatorio")]
         public string LastName { get; set; }
-
+        |
 
         [Required(ErrorMessage = "El campo telefono es obligatorio")]
         [DataType(DataType.PhoneNumber)]
